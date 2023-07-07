@@ -9,7 +9,7 @@ const connectDB = async () => {
     // const conn = await mongoose.connect(`mongodb://0.0.0.0:27017/forum`, {
     //   useNewUrlParser: true,
     // });
-    const conn = await mongoose.connect(`mongodb+srv://umutbaran1:lHXBmvST607W7bld@cluster0.waqvr7w.mongodb.net/`, {
+    const conn = await mongoose.connect(`mongodb+srv://<username:password>@cluster0.waqvr7w.mongodb.net/`, {
       dbName:'Cluster0',
       useNewUrlParser: true,
       useUnifiedTopology: true,});
